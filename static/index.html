@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form id="requestsForm">
+        <input id="url" title="url" type="text" name="url">
+        <br>
+        <br>
+
+        <select id="method" title="select">
+            <option value="get">GET</option>
+            <option value="post">POST</option>
+            <option value="put">PUT</option>
+            <option value="delete">DELETE</option>
+        </select><br><br>
+
+        <label>parametros en json</label><br>
+        <textarea id="jsonParams" title="body" rows="5" cols="50"></textarea><br><br>
+
+        <button type="button" id="sendBtn">Enviar</button>
+    </form>
+    <br><br>
+
+    <label>JSON Output</label>
+    <pre id="result"></pre>
+
+    <script src="/static/js/script.js"></script>
+</body>
+</html>
