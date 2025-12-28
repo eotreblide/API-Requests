@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form id="requestsForm">
+        <input id="url" title="url" type="text" name="url">
+        <br>
+        <br>
+
+        <select id="method" title="select">
+            <option value="get">GET</option>
+            <option value="post">POST</option>
+            <option value="put">PUT</option>
+            <option value="delete">DELETE</option>
+        </select><br><br>
+
+        <label>parametros en json</label><br>
+        <textarea id="jsonParams" title="body" rows="5" cols="50"></textarea><br><br>
+
+        <button type="button" id="sendBtn">Enviar</button>
+    </form>
+    <br><br>
+
+    <label>JSON Output</label>
+    <pre id="result"></pre>
+
+    <script>
+        const sendBtn = document.getElementById("sendBtn")
+        const url = document.getElementById("url")
+        const meth = document.getElementById("method")
+        const txt = document.getElementById("result")
+        const params = document.getElementById("jsonParams")
+        async function send() {
+            try{
+                const form = new FormData()
+                form.append("u", url.value)
+                form.append("m", meth.value)
+                form.append("p", params.value)
+                let res = await fetch("/request", {
+                    method: "POST",
+                    body: form
+                })
+                const data = await res.json()
+                txt.textContent = data
+            } catch {
+                txt.textContent = `Ha ocurrido un error, porfavor revise si el metodo ${meth.value} es el correcto`
+            }
+        }
+
+        sendBtn.addEventListener('click', send)
+    </script>
+</body>
+</html>
