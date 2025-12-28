@@ -6,11 +6,11 @@ import json
 
 app = FastAPI()
 
-app.mount("/templates", StaticFiles(directory="templates"), name="templates")
+app.mount("/static", StaticFiles(directory="static"), name="static")
 
 @app.get("/")
 def root():
-    return FileResponse("templates/index.html")
+    return FileResponse("static/index.html")
 
 @app.post("/request")
 async def req(
