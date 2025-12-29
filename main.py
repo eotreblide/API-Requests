@@ -29,4 +29,5 @@ async def req(
     elif m.upper() == "DELETE":
         response = requests.delete(u, params=parms)
     data = response.json()
-    return str(data)
+    formatted = json.dumps(data, indent=4)
+    return str(formatted)
