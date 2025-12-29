@@ -23,3 +23,18 @@ label {
 #jsonParams:focus, #url:focus, button:focus {
     box-shadow: 0 0 15px #02afff;
 }
+
+#resultDiv {
+    text-align: left;
+    margin: auto;
+    max-width: 700px;
+    width: 100%;
+    display: block;
+    background-color: #252525;
+    border-radius: 10px;
+    padding: 20px;
+}
+
+#result {
+    margin-left: 0;
+}
