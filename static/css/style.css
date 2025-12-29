@@ -1,0 +1,25 @@
+body {
+    background: radial-gradient(#000436, #0a0718);
+    text-align: center;
+    font-family: monospace;
+    color: #99a9bd;
+}
+
+h1 {
+    font-size: 120px;
+}
+
+label {
+    font-size: 20px;
+}
+
+#jsonParams, #url, #method, button {
+    background-color: #99a9bd;
+    border-radius: 10px;
+    border: 1px solid #252525;
+    transition: box-shadow 0.5s;
+}
+
+#jsonParams:focus, #url:focus, button:focus {
+    box-shadow: 0 0 15px #02afff;
+}
