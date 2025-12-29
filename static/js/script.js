@@ -4,7 +4,7 @@ const meth = document.getElementById("method")
 const txt = document.getElementById("result")
 const params = document.getElementById("jsonParams")
 async function send() {
-    try{
+    try {
         const form = new FormData()
         form.append("u", url.value)
         form.append("m", meth.value)
@@ -16,7 +16,7 @@ async function send() {
         const data = await res.json()
         txt.textContent = data
     } catch {
-        txt.textContent = `Ha ocurrido un error, porfavor revise si el metodo ${meth.value} es el correcto`
+        txt.textContent = `Ha ocurrido un error, porfavor revise si el metodo ${meth.value} es el correcto, si la api existe y si el json esta bien`
     }
 }
 
