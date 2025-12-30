@@ -1,6 +1,7 @@
 # API-Requests
 
-<img width="1324" height="664" alt="image" src="https://github.com/user-attachments/assets/442975fb-dc62-424b-8030-da4781bd6ce1" />
+<img width="1336" height="675" alt="image" src="https://github.com/user-attachments/assets/2580e8da-0a4b-41df-a18f-adddf4cc33df" />
+
 
 Una api para hacer peticiones a otras APIs utilizando su url, metodo y sus parametros query si los tiene (en formato JSON)
 
