@@ -1,1 +1,4 @@
-fastapi[all]
+fastapi
+requests
+uvicorn
+python-multipart
